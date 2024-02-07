@@ -11,15 +11,11 @@ Our testbed comprises a HAS client (smartphone or laptop), supplied by a power s
 
 The data available in COCONUT are presented and described in the following Table. The main.csv file is necessary to access the desired collec-
 tion of energy measurements and contains the information relative to each scenario, defined by the unique identification sequence
-ScenarioID. Each line in the main.csv file represents a different scenario for which one of the following collections of measurements have been made available. The first collection refers to the retrieval measurements, stored in the file Energy_details.csv, which contains measurements related to
-the current intensity (A) and download time (sec) for each scenario, both averaged over all retrieved segments. The second collection
-is contained in the  [ScenarioID]_details.csv and stored in scenario_details folder. Each CSV file represents a series of measurements for decoding+rendering with NIC disabled gathered by the multimeter during the reproduction. These measurements are then grouped based on the streaming time ST
-and averaged on a second-basis, excluding the first 3 seconds since the measurements are biased by the player initialization. Whereas
+ScenarioID. Each line in the main.csv file represents a different scenario for which one of the following collections of measurements have been made available. The first collection refers to the retrieval measurements for both Laptop and Smartphone, stored in the file Energy_details.csv, which contains measurements related to the current intensity (A) and download time (sec) for each scenario, both averaged over all retrieved segments. The second collection is contained in the  [ScenarioID]_details.csv and stored in scenario_details folder. Each CSV file represents a series of measurements for decoding+rendering with NIC disabled gathered by the multimeter during the reproduction. These measurements are then grouped based on the streaming time ST and averaged on a second-basis, excluding the first 3 seconds since the measurements are biased by the player initialization. Whereas
 PM is available for both devices and refers to the current intensity measured by the multimeter, the last 5 columns, namely PN, GPU_T,
-GPU_D, GPU_R, and GPU_CPU, are only available for the laptop, as outcome by [Nvitop](https://pypi.org/project/nvitop/0.2.5.1/)  and [Psutil](https://pypi.org/project/psutil/) .
+GPU_D, GPU_R, and GPU_CPU, are only available for the laptop, as outcome by [Nvitop](https://pypi.org/project/nvitop/0.2.5.1/)  and [Psutil](https://pypi.org/project/psutil/) .  Note that for Smartphone, the second collection includes only ST and PM since Nvitop and Psutil cannot run on the Smartphone.  In addition to the data presented above, for each video content and frame, we provide PSNR, VMAF, SI and TI values in the file content_details folder.
 
 ![Structure of the CSV files in COCONUT](assets/tb.png)
 
-In addition to the data presented above, for each video content and frame, we provide PSNR, VMAF, SI and TI values in the file
-content_details folder.
+
 
