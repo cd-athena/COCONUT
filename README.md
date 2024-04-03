@@ -19,11 +19,13 @@ GPU_D, GPU_R, and GPU_CPU, are only available for the laptop, as outcome by [Nvi
 
 
 ## Contributors
-* Farzad Tashtarian - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - farzad.tashtarian@aau.at
-* Daniele Lorenzi - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - daniele.lorenzi@aau.at
+* Farzad Tashtarian\* - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - farzad.tashtarian@aau.at
+* Daniele Lorenzi\* - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - daniele.lorenzi@aau.at
 * Hadi Amirpour - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - hadi.amirpour@aau.at
 * Samira Afzal - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - samira.afzal@aau.at
 * Christian Timmerer - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - christian.timmerer@aau.at
+
+\* These authors contributed equally to this work.
 
 
 ## Citation
