@@ -28,7 +28,7 @@ GPU_D, GPU_R, and GPU_CPU, are only available for the laptop, as outcome by [Nvi
 
 ## Citation
 ```
-@article{tashtarian2024coconut,
+@inproceedings{tashtarian2024coconut,
   author = {{Tashtarian, Farzad and Lorenzi, Daniele} and Amirpour, Hadi and Afzal, Samira and Timmerer, Christian},
   title = {{COCONUT: Content Consumption Energy Measurement Dataset for Adaptive Video Streaming}},
   year = {2024},
