@@ -18,4 +18,29 @@ GPU_D, GPU_R, and GPU_CPU, are only available for the laptop, as outcome by [Nvi
 ![Structure of the CSV files in COCONUT](assets/tb.png)
 
 
+## Contributors
+* Farzad Tashtarian - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - farzad.tashtarian@aau.at
+* Daniele Lorenzi - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - daniele.lorenzi@aau.at
+* Hadi Amirpour - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - hadi.amirpour@aau.at
+* Samira Afzal - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - samira.afzal@aau.at
+* Christian Timmerer - Christian Doppler Laboratory ATHENA, Alpen-Adria-Universitaet Klagenfurt - christian.timmerer@aau.at
 
+
+## Citation
+```
+@article{tashtarian2024coconut,
+  author = {{Tashtarian, Farzad and Lorenzi, Daniele} and Amirpour, Hadi and Afzal, Samira and Timmerer, Christian},
+  title = {{COCONUT: Content Consumption Energy Measurement Dataset for Adaptive Video Streaming}},
+  year = {2024},
+  isbn = {9798400704123},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3625468.3652179},
+  doi = {10.1145/3625468.3652179},
+  booktitle = {Proceedings of the 15th ACM Multimedia Systems Conference},
+  keywords = {Dataset, Energy, HTTP Adaptive Streaming, Decoding, Video Player},
+  location = {Bari, Italy},
+  series = {MMSys '24}
+}
+
+```
